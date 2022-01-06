@@ -1,0 +1,59 @@
+h3 {
+    color: blue;
+    text-align: center;
+}
+
+#main {
+    background-color: whitesmoke;
+    margin: 30px;
+    padding: 30px;
+    align-content: center;
+}
+
+.alert {
+  color: #72353D;
+  background-color: #EAD2D5;
+}
+
+.blue {
+    height: 200px;
+    width: 50%;
+    background-color: blue;
+}
+
+.red {
+    height: 200px;
+    width: 50%;
+    background-color: red;
+}
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+}
+
+.t1 {
+    padding: 20px;
+}
+.t2 {
+    width: 40%;
+}
+.t3 {
+    border: 50px;
+}
+.t4 {
+    border: solid black 1px;
+}
+.t5 {
+    transform: rotate(90deg);
+}
+
+.blue:hover {
+    transition: all 5s;
+    background-color: red;
+}
+
+.red:hover {
+    transition: all 5s;
+    background-color: blue;
+}
